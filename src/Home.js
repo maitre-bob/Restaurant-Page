@@ -1,5 +1,6 @@
 export default function loadHome() {
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   // Card principale
   const card = document.createElement("div");
