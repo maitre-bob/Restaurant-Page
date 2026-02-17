@@ -52,7 +52,7 @@ nav button:hover {
 #content {
   display: grid;
   place-items: center;
-  width: 100%;
+  padding: 20px;
 }
 
 /* Card principale centrée */
@@ -130,4 +130,17 @@ ul {
 ul li {
   padding: 8px 0;
   border-bottom: 1px dotted var(--chocolate);
+}
+
+
+footer {
+  background: linear-gradient(135deg, #7B3F00, #5a2e00);
+  color: var(--cream);
+  text-align: center;
+  padding: 25px 0;
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.2);
+  grid-column: 1 / -1;
 }
