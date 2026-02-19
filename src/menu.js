@@ -1,3 +1,10 @@
+import cafeImg from "./images/cafe.jpg";
+import orangeImg from "./images/orange.jpeg";
+import saladeImg from "./images/salade.jpg";
+import omeletteImg from "./images/omelette.jpg";
+import fritesImg from "./images/frites.jpg";
+
+
 // src/menu.js
 export default function loadMenu() {
   const content = document.getElementById("content");
@@ -23,13 +30,13 @@ export default function loadMenu() {
       name: "Café Espresso",
       desc: "Café noir intense et aromatique",
       price: "2.50 $",
-      img: "https://via.placeholder.com/150.png?text=Café+Espresso"
+      img: cafeImg,
     },
     {
       name: "Jus Orange Frais",
       desc: "Pressé à la main tous les matins",
       price: "3.00 $",
-      img: "https://via.placeholder.com/150.png?text=Jus+Orange"
+      img: orangeImg,
     }
   ];
 
@@ -65,13 +72,13 @@ export default function loadMenu() {
       name: "Salade Fraîche",
       desc: "Mélange de légumes frais de saison",
       price: "4.50 $",
-      img: "https://via.placeholder.com/150.png?text=Salade"
+      img: saladeImg,
     },
     {
       name: "Frites Maison",
       desc: "Cuites à la perfection, croustillantes",
       price: "3.50 $",
-      img: "https://via.placeholder.com/150.png?text=Frites"
+      img: fritesImg
     }
   ];
 
@@ -107,13 +114,13 @@ export default function loadMenu() {
       name: "Omelette du Chef",
       desc: "Omelette aux fines herbes et fromage",
       price: "7.50 $",
-      img: "https://via.placeholder.com/150.png?text=Omelette"
+      img: omeletteImg,
     },
     {
       name: "Pancakes aux Myrtilles",
       desc: "Accompagnés de sirop d’érable maison",
       price: "6.50 $",
-      img: "https://via.placeholder.com/150.png?text=Pancakes"
+      img: omeletteImg,
     }
   ];
 
